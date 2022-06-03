@@ -665,7 +665,7 @@ display: flex;
 
   @media (max-width:830px) {
       header {
-
+    
 margin-left: -5rem;
 
       }
