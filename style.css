@@ -297,32 +297,33 @@ hr {
 
 .two-tone-price {
   position: absolute;
-  left: 51rem;
-  bottom: -14rem;
+  left: 70rem;
+  bottom: -7rem;
+
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .linen-mid-price {
   position: absolute;
-  left: 113rem;
-  bottom: -14rem;
+  left: 133rem;
+  bottom: -7rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .diamond-mid-price {
   position: absolute;
-  left: 82rem;
-  bottom: -14rem;
+  left: 102rem;
+  bottom: -7rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .yeezy-pure-price {
   position: absolute;
-  left: 135rem;
-  bottom: -14rem;
+  left: 155rem;
+  bottom: -7rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -657,4 +658,113 @@ display: flex;
   .mp-div {
     display: flex;
     margin-left: 15rem;
-    }
+  }
+
+
+  /*TABLETS*/
+
+  @media (max-width:850px) {
+      header {
+
+margin-left: -5rem;
+
+      }
+
+
+    
+
+      nav {
+          display: none;
+      }
+   
+.brand-list {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+  }
+
+  .item-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 209, 209);
+    padding: 1rem;
+    border-radius: 999rem;
+    font-size: 0.9rem;
+    width: 5.5rem;
+    margin-left: -3rem;
+  
+    cursor: pointer;
+  }
+      
+
+
+
+  .main-section {
+      margin-left: -40rem;
+      width: 160rem;
+  }
+
+  .shoe-img {
+      width: 40rem;
+  }
+
+  .text {
+      margin-left: -50rem;
+      margin-top: 5rem;
+      font-size: 0.7rem;
+  }
+
+  .restock {
+      font-size: 2rem;
+      margin-left: 0.9rem;
+  }
+
+  .btn-shop {
+margin-top: 9rem;
+margin-left: -48rem;
+width: 13rem;
+white-space: nowrap;
+
+  }
+
+
+.most-popular {
+    margin-left: 5rem;
+   
+}
+
+.mp {
+    margin-top: -5rem;
+}
+
+.mp-img {
+    width: 15rem;
+}
+
+.mp-div {
+    display: flex;
+    margin-left: 8rem;
+}
+
+.mp-text {
+display: flex;
+margin-left: -10rem;
+
+
+}
+
+.mg-img-txt {
+display: flex;
+margin-left: -90rem;
+position: relative;
+}
+
+
+
+.splitter {
+    width: 120rem;
+}
+
+
+  }
