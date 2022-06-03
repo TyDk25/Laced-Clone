@@ -677,7 +677,11 @@ margin-left: -5rem;
 
       }
 
-
+body {
+width: fit-content;
+height: fit-content;
+background-color: blue;
+}
     
 
       nav {
@@ -710,7 +714,7 @@ margin-left: -5rem;
   .main-section {
       margin-left: -40rem;
       width: 160rem;
-      overflow: hidden;
+
   }
 
   .shoe-img {
