@@ -297,8 +297,8 @@ hr {
 
 .two-tone-price {
   position: absolute;
-  left: 90rem;
-  bottom: -1rem;
+  left: 70rem;
+  bottom: -7rem;
 
   font-weight: bold;
   font-size: 1.3rem;
@@ -306,35 +306,30 @@ hr {
 
 .linen-mid-price {
   position: absolute;
-  left: 153rem;
-  bottom: -1rem;
+  left: 133rem;
+  bottom: -7rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .diamond-mid-price {
   position: absolute;
-  left: 122rem;
-  bottom: -1rem;
+  left: 102rem;
+  bottom: -7rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .yeezy-pure-price {
   position: absolute;
-  left: 175rem;
-  bottom: -1rem;
+  left: 155rem;
+  bottom: -7rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
 
-.last-mp {
-margin-left: -rem;
-}
-
-
 .mp-text.pure {
-  padding-left: -204rem;
+  padding-left: 5rem;
 }
 
 .mp-img-txt p:last-child {
@@ -494,7 +489,7 @@ h2 {
 
 /*Most Laptops*/
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
  
     * {
     max-width: 180rem !important;
@@ -588,13 +583,13 @@ display: flex;
     width: 400rem;
 }
 
-/* .two-tone-price,
+.two-tone-price,
   .diamond-mid-price,
   .linen-mid-price,
   .yeezy-pure-price {
-margin-bottom: -23rem;
-    margin-left: -50rem;
-  } */
+    margin-bottom: -10rem;
+    margin-left: -10rem;
+  }
 
   footer {
     margin-top: 5rem;
@@ -669,19 +664,13 @@ margin-bottom: -23rem;
   /*TABLETS*/
 
   @media (max-width:850px) {
-
-       
       header {
 
 margin-left: -5rem;
 
       }
 
-body {
-width: fit-content;
-height: fit-content;
-background-color: blue;
-}
+
     
 
       nav {
@@ -714,7 +703,6 @@ background-color: blue;
   .main-section {
       margin-left: -40rem;
       width: 160rem;
-
   }
 
   .shoe-img {
