@@ -663,7 +663,7 @@ display: flex;
 
   /*TABLETS*/
 
-  @media (max-width:850px) {
+  @media (max-width:830px) {
       header {
 
 margin-left: -5rem;
