@@ -664,6 +664,10 @@ display: flex;
   /*TABLETS*/
 
   @media (max-width:850px) {
+
+
+
+    
       header {
 
 margin-left: -5rem;
