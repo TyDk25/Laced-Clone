@@ -739,14 +739,10 @@ white-space: nowrap;
 }
 
 .mp-img {
-    width: 40rem;
-background-position:center; 
-background-attachment:scroll; 
--o-background-size:cover; 
--moz-background-size:cover; 
--webkit-background-size:cover; 
-background-size:cover; 
-background-repeat:no-repeat;
+    width: 15rem;
+    
+    background-attachment: initial;
+    background-attachment: scroll;
 }
 
 .mp-div {
