@@ -663,7 +663,7 @@ display: flex;
 
   /*TABLETS*/
 
-  @media (max-width:850px) {
+  @media screen and (max-width:850px) {
       header {
 
 margin-left: -5rem;
@@ -739,7 +739,14 @@ white-space: nowrap;
 }
 
 .mp-img {
-    width: 15rem;
+    width: 40rem;
+background-position:center; 
+background-attachment:scroll; 
+-o-background-size:cover; 
+-moz-background-size:cover; 
+-webkit-background-size:cover; 
+background-size:cover; 
+background-repeat:no-repeat;
 }
 
 .mp-div {
