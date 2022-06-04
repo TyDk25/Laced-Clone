@@ -664,110 +664,178 @@ display: flex;
   /*TABLETS*/
 
   @media screen and (max-width:850px) {
-      header {
+    header {
 
-margin-left: -5rem;
-
-      }
-
-
-    
-
-      nav {
-          display: none;
-      }
-   
-.brand-list {
-    display: flex;
-    margin-top: 1rem;
-    justify-content: space-evenly;
-  }
-
-  .item-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(211, 209, 209);
-    padding: 1rem;
-    border-radius: 999rem;
-    font-size: 0.9rem;
-    width: 5.5rem;
-    margin-left: -3rem;
-  
-    cursor: pointer;
-  }
+      margin-left: -5rem;
       
+          }
+      
+      
+        
+      
+          nav {
+              display: none;
+          }
+       
+      .brand-list {
+        display: flex;
+        margin-top: 1rem;
+        justify-content: space-evenly;
+      }
+      
+      .item-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(211, 209, 209);
+        padding: 1rem;
+        border-radius: 999rem;
+        font-size: 0.9rem;
+        width: 5.5rem;
+        margin-left: -3rem;
+      
+        cursor: pointer;
+      }
+      
+      body {
+        position: relative;
+      }
+      
+      
+      
+      .main-section {
+          margin-left: -40rem;
+          width: 160rem;
+      }
+      
+      .shoe-img {
+          width: 40rem;
+          
+      }
+      
+      .text {
+          margin-left: -50rem;
+          margin-top: 5rem;
+          font-size: 0.7rem;
+      }
+      
+      .restock {
+          font-size: 2rem;
+          margin-left: 0.9rem;
+      }
+      
+      .btn-shop {
+      margin-top: 9rem;
+      margin-left: -48rem;
+      width: 13rem;
+      white-space: nowrap;
+      
+      }
+      
+      
+      .most-popular {
+        margin-left: 5rem;
+       
+      }
+      
+      .mp {
+        margin-top: -5rem;
+      }
+      
+      .mp-img {
+        width: 15rem;
+      
+      }
+      
+      .mp-div {
+        display: flex;
+        margin-left: 8rem;
+      }
+      
+      .mp-text {
+      display: flex;
+      margin-left: -10rem;
+      
+      
+      }
+      
+      .mg-img-txt {
+      display: flex;
+      margin-left: -90rem;
+      position: relative;
+      }
+      
+      
+      
+      .splitter {
+        width: 120rem;
+      }
 
-
-
-  .main-section {
-      margin-left: -40rem;
-      width: 160rem;
-  }
-
-  .shoe-img {
-      width: 40rem;
-  }
-
-  .text {
-      margin-left: -50rem;
-      margin-top: 5rem;
-      font-size: 0.7rem;
-  }
-
-  .restock {
-      font-size: 2rem;
-      margin-left: 0.9rem;
-  }
-
-  .btn-shop {
-margin-top: 9rem;
-margin-left: -48rem;
-width: 13rem;
-white-space: nowrap;
-
-  }
-
-
-.most-popular {
-    margin-left: 5rem;
-   
-}
-
-.mp {
-    margin-top: -5rem;
-}
-
-.mp-img {
-    width: 15rem;
+      footer {
+        /* margin-top: 5rem; */
+        padding: 30rem;
+        background-color: black;
+        width: 160rem;
+        margin-left: -15rem;
+        font-size: 0.5rem;
+      }
     
-    background-attachment: initial;
-    background-attachment: scroll;
+
+.footer-browse {
+  display: flex;
+  margin-top: 40rem;
+  margin-left: -10rem;
+justify-content: center;
+align-items: center;
+gap: 20rem;
+
 }
 
-.mp-div {
-    display: flex;
-    margin-left: 8rem;
+.footer-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -30rem;
+
 }
 
-.mp-text {
+.footer-icon {
+  margin-bottom: -30rem;
+}
+
+.contact-footer {
+  margin-top: -13rem;
+}
+
+.placeholder {
 display: flex;
-margin-left: -10rem;
-
+justify-content: flex-end;
+margin-right: 60rem;
+margin-top: -12rem;
+color: white;
 
 }
 
-.mg-img-txt {
-display: flex;
-margin-left: -90rem;
-position: relative;
+.placeholder-txt {
+  position: absolute;
+  border-bottom: 1px solid white;
+  margin-top: 6rem;
+  width: 30%;
 }
 
 
 
-.splitter {
-    width: 120rem;
+.search-txt {
+width: 30rem;
+font-size: 2rem;
 }
 
 
+.Im-in {
+  margin-left: 30rem;
+} 
+
+.fl-line {
+  display: none;
+}
   }
