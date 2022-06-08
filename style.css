@@ -2,17 +2,29 @@
   padding: 0;
   margin: 0;
   caret-color: transparent;
+
+
+
 }
 
+body {
+  overflow: hidden scroll;
+}
 html {
   font-size: 10px;
   font-family: "Poppins", sans-serif;
 }
 
+
 /*NAVIGATION*/
 header {
   display: flex;
   justify-content: space-evenly;
+}
+
+nav {
+ 
+  margin-left: -20rem;
 }
 
 .logo {
@@ -160,8 +172,9 @@ header {
   );
   height: 100rem;
   border-top: 1px solid rgb(201, 201, 201);
+ 
 
-  width: 180rem;
+  
 }
 
 .shoe-img {
@@ -395,7 +408,7 @@ h2 {
   height: 3rem;
   padding: 0.5rem;
   width: 8rem;
-  margin-left: 40rem;
+  margin-left: 70rem;
   background-color: transparent;
   font-size: 1.5rem;
   font-weight: bold;
@@ -470,13 +483,6 @@ h2 {
 
 /*Large Screens*/
 @media (max-width: 2000px) {
-  .two-tone-price,
-  .diamond-mid-price,
-  .linen-mid-price,
-  .yeezy-pure-price {
-    margin-bottom: -4rem;
-    margin-left: 9rem;
-  }
 
   .main-section {
     width: 200rem;
@@ -498,6 +504,12 @@ h2 {
 
   }
 
+  .two-tone-price,
+  .diamond-mid-price,
+  .linen-mid-price,
+  .yeezy-pure-price {
+    display: none;
+  }
 
 
 
@@ -505,7 +517,7 @@ h2 {
 
   .main-section {
 margin-left: -10rem;
-    width: 180rem;
+    width: 150rem;
 
 
   }
@@ -580,7 +592,7 @@ display: flex;
 
 
 .splitter {
-    width: 400rem;
+width: 100%;
 }
 
 .two-tone-price,
@@ -595,7 +607,7 @@ display: flex;
     margin-top: 5rem;
     padding: 25rem;
     background-color: black;
-    width: 160rem;
+    width: 100%;
     margin-left: -15rem;
     font-size: 0.5rem;
   }
@@ -610,7 +622,7 @@ display: flex;
     height: 3rem;
     padding: 0.5rem;
     width: 8rem;
-    margin-left: 30.8rem;
+    margin-left: 38.5rem;
     background-color: transparent;
     font-size: 1.5rem;
     font-weight: bold;
@@ -663,14 +675,14 @@ display: flex;
 
   /*TABLETS*/
 
-  @media (max-width:900px) {
+  @media only screen and (min-device-width:768px) and (max-device-width:1024px) {
     header {
 
       margin-left: -5rem;
       
           }
       
-      
+        
         
       
           nav {
