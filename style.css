@@ -310,8 +310,8 @@ hr {
 
 .two-tone-price {
   position: absolute;
-  left: 70rem;
-  bottom: -7rem;
+  left: 75rem;
+
 
   font-weight: bold;
   font-size: 1.3rem;
@@ -319,24 +319,24 @@ hr {
 
 .linen-mid-price {
   position: absolute;
-  left: 133rem;
-  bottom: -7rem;
+  left: 138rem;
+
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .diamond-mid-price {
   position: absolute;
-  left: 102rem;
-  bottom: -7rem;
+  left: 108rem;
+
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .yeezy-pure-price {
   position: absolute;
-  left: 155rem;
-  bottom: -7rem;
+  left: 160.7rem;
+  bottom: 4.2rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -408,7 +408,7 @@ h2 {
   height: 3rem;
   padding: 0.5rem;
   width: 8rem;
-  margin-left: 70rem;
+  margin-left: 75rem;
   background-color: transparent;
   font-size: 1.5rem;
   font-weight: bold;
@@ -418,7 +418,7 @@ h2 {
 
 .square-txt {
   margin-top: 0.6rem;
-  margin-left: 0.2rem;
+  margin-left: 0.5em;
   letter-spacing: 0.4rem;
   border: none;
   background-color: black;
@@ -679,6 +679,7 @@ width: 100%;
     header {
 
       margin-left: -5rem;
+    margin-top: 2rem;
       
           }
       
@@ -711,13 +712,20 @@ width: 100%;
       
       body {
         position: relative;
+     
       }
+
+      body {
+        overflow-y: hidden;
       
+      }
       
       
       .main-section {
           margin-left: -40rem;
-          width: 160rem;
+          width: 130rem;
+          height: 70rem;
+          overflow-x: hidden;
       }
       
       .shoe-img {
@@ -761,15 +769,21 @@ width: 100%;
       
       .mp-div {
         display: flex;
-        margin-left: 8rem;
+        margin-left: 30rem;
+      }
+
+      .mp-img:nth-child(4) {
+margin-right: 3rem;
       }
       
       .mp-text {
       display: flex;
-      margin-left: -10rem;
+      margin-right: -11.5rem;
+    
       
       
       }
+
       
       .mg-img-txt {
       display: flex;
@@ -780,16 +794,22 @@ width: 100%;
       
       
       .splitter {
-        width: 120rem;
+        width: 100rem;
       }
 
       footer {
-        /* margin-top: 5rem; */
+        margin-top: 5rem;
         padding: 30rem;
         background-color: black;
-        width: 160rem;
+        width: 65rem;
         margin-left: -15rem;
         font-size: 0.5rem;
+        
+      }
+
+    
+      .footer-line-div {
+        width: 40rem;
       }
     
 
