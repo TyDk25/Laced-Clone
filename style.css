@@ -310,7 +310,7 @@ hr {
 
 .two-tone-price {
   position: absolute;
-  left: 75rem;
+  left: 71rem;
 
 
   font-weight: bold;
@@ -319,7 +319,7 @@ hr {
 
 .linen-mid-price {
   position: absolute;
-  left: 138rem;
+  left: 133rem;
 
   font-weight: bold;
   font-size: 1.3rem;
@@ -327,7 +327,7 @@ hr {
 
 .diamond-mid-price {
   position: absolute;
-  left: 108rem;
+  left: 102rem;
 
   font-weight: bold;
   font-size: 1.3rem;
@@ -335,8 +335,8 @@ hr {
 
 .yeezy-pure-price {
   position: absolute;
-  left: 160.7rem;
-  bottom: 4.2rem;
+  left: 155rem;
+bottom: -6rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -693,23 +693,38 @@ width: 100%;
       .brand-list {
         display: flex;
         margin-top: 1rem;
-        justify-content: space-evenly;
-      }
+   }
+
+    
+
+
       
       .item-list {
         display: flex;
         justify-content: center;
         align-items: center;
         border: 1px solid rgb(211, 209, 209);
-        padding: 1rem;
+        padding: 1.3rem;
         border-radius: 999rem;
         font-size: 0.9rem;
-        width: 5.5rem;
-        margin-left: -3rem;
+        width: 5.7rem;
+ 
+
       
         cursor: pointer;
       }
+
+
+      .item-list:nth-child(10),
+      .item-list:nth-child(11),
+      .item-list:nth-child(12),
+      .item-list:nth-child(13),
+      .item-list:nth-child(14),
+      .item-list:nth-child(15) {
+display: none;
+      }
       
+
       body {
         position: relative;
      
@@ -717,13 +732,14 @@ width: 100%;
 
       body {
         overflow-y: hidden;
+        overflow-x: hidden;
       
       }
       
       
       .main-section {
           margin-left: -40rem;
-          width: 130rem;
+          width: 135rem;
           height: 70rem;
           overflow-x: hidden;
       }
@@ -801,7 +817,7 @@ margin-right: 3rem;
         margin-top: 5rem;
         padding: 30rem;
         background-color: black;
-        width: 65rem;
+        width: 55rem;
         margin-left: -15rem;
         font-size: 0.5rem;
         
