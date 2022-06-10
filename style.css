@@ -807,14 +807,24 @@ margin-right: 3rem;
 
       footer {
         margin-top: 5rem;
-        padding: 25rem;
+        padding: 30rem;
         background-color: black;
-        width: 65rem;
+        width: 70rem;
         margin-left: -10rem;
         font-size: 0.5rem;
         overflow-x: hidden;
       }
 
+
+
+      .newsletter {
+ margin-left: -15rem;
+ margin-bottom: 5rem;
+      }
+
+      .placeholder {
+        margin-left: 60rem;
+      }
     
       .footer-line-div {
         width: 40rem;
@@ -828,6 +838,7 @@ margin-right: 3rem;
 justify-content: center;
 align-items: center;
 margin-left: 10rem;
+gap: 30rem;
 
 
 }
