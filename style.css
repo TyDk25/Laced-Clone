@@ -724,16 +724,8 @@ width: 100%;
 display: none;
       }
       
-
-      body {
-        position: relative;
-     
-      }
-
-      body {
-        overflow-y: hidden;
-        overflow-x: hidden;
-      
+   body {
+      overflow: hidden scroll;
       }
       
       
