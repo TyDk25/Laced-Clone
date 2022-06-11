@@ -385,7 +385,7 @@ h2 {
 
 .placeholder-txt {
   position: absolute;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
   margin-top: 6rem;
   width: 37.8%;
 }
@@ -404,6 +404,7 @@ h2 {
   position: absolute;
   bottom: 0.05rem;
   border: 1px solid white;
+  border-bottom: none;
   color: black;
   height: 3rem;
   padding: 0.5rem;
@@ -628,6 +629,7 @@ width: 100%;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+    border-bottom: none;
   }
 
   .placeholder-txt {
@@ -802,14 +804,14 @@ margin-right: 3rem;
       
       
       .splitter {
-        width: 100rem;
+        width: 95rem;
       }
 
       footer {
         margin-top: 5rem;
         padding: 30rem;
         background-color: black;
-        width: 70rem;
+        width: 75rem;
         margin-left: -10rem;
         font-size: 0.5rem;
         overflow-x: hidden;
@@ -823,8 +825,13 @@ margin-right: 3rem;
       }
 
       .placeholder {
-        margin-left: 60rem;
+  margin-left: 50rem;
+  margin-top: -60rem;
+
       }
+
+  
+
     
       .footer-line-div {
         width: 40rem;
@@ -838,7 +845,7 @@ margin-right: 3rem;
 justify-content: center;
 align-items: center;
 margin-left: 10rem;
-gap: 30rem;
+gap: 20rem;
 
 
 }
@@ -847,12 +854,15 @@ gap: 30rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 15rem;
+
   
 
 }
 
 .footer-icon {
   margin-bottom: -30rem;
+
 }
 
 .contact-footer {
@@ -862,7 +872,7 @@ gap: 30rem;
 .placeholder {
 display: flex;
 justify-content: flex-end;
-margin-right: 60rem;
+margin-left: 100rem;
 margin-top: -12rem;
 color: white;
 
@@ -871,10 +881,15 @@ color: white;
 .placeholder-txt {
   position: absolute;
   border-bottom: 1px solid white;
-  margin-top: 6rem;
-  width: 30%;
+  margin-top: -1rem;
+  width:40rem;
 }
 
+.Im-in {
+ bottom: -4.8rem;
+ left: 0.7rem;
+ border-bottom: none;
+}
 
 
 .search-txt {
@@ -885,7 +900,12 @@ font-size: 2rem;
 
 .Im-in {
   margin-left: 30rem;
+  margin-bottom: 5rem;
 } 
+
+input {
+  margin-top: -90rem;
+}
 
 .fl-line {
  display: none;
