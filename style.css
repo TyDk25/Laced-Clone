@@ -813,7 +813,7 @@ margin-right: 3rem;
 
       footer {
         margin-top: 5rem;
-        padding: 25rem;
+        padding: 20rem;
         background-color: black;
         width: 75rem;
         margin-left: -10rem;
@@ -826,13 +826,12 @@ margin-right: 3rem;
 
       .newsletter {
 position: absolute;
- margin-left: -10rem;
-bottom: 85rem;
+ margin-left: -5rem;
+bottom: 70rem;
       }
 
       .placeholder {
-left: 10rem;
-  top: -5rem;
+left: 5rem;
 
       }
 
@@ -850,8 +849,9 @@ left: 10rem;
 
 justify-content: center;
 align-items: center;
-margin-left: -15rem;
+margin-left: -5rem;
 gap: 20rem;
+font-size: 1.2rem;
 
 
 }
