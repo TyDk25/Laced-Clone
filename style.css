@@ -814,7 +814,6 @@ margin-right: 3rem;
       footer {
         margin-top: 5rem;
         padding: 35rem;
-        padding-left: 30rem;
         background-color: black;
         width: 75rem;
         margin-left: -10rem;
@@ -828,11 +827,11 @@ margin-right: 3rem;
       .newsletter {
 position: absolute;
  margin-left: -15rem;
-bottom: 95rem;
+bottom: 100rem;
       }
 
       .placeholder {
-left: 5rem;
+left: -20rem;
   top: -10rem;
 
       }
