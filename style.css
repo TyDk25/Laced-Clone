@@ -735,13 +735,13 @@ display: none;
       }
       
       
-      /* .main-section {
+      .main-section {
           margin-left: -40rem;
           width: 135rem;
           height: 70rem;
           overflow-x: hidden;
       }
-       */
+      
       .shoe-img {
           width: 40rem;
           
@@ -813,7 +813,7 @@ margin-right: 3rem;
 
       footer {
         margin-top: 5rem;
-        padding: 35rem;
+        padding: 25rem;
         background-color: black;
         width: 75rem;
         margin-left: -10rem;
