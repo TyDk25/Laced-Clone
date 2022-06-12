@@ -759,10 +759,10 @@ display: none;
       }
       
       .btn-shop {
-      margin-top: 9rem;
+      /* margin-top: 9rem;
       margin-left: -48rem;
       width: 13rem;
-      white-space: nowrap;
+      white-space: nowrap; */
       
       }
       
@@ -825,7 +825,7 @@ margin-right: 3rem;
 
       .newsletter {
  margin-left: -20rem;
- margin-bottom: 15rem;
+ margin-bottom: 20rem;
       }
 
       .placeholder {
