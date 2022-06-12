@@ -826,13 +826,13 @@ margin-right: 3rem;
 
       .newsletter {
 position: absolute;
- margin-left: -15rem;
-bottom: 95rem;
+ margin-left: -10rem;
+bottom: 85rem;
       }
 
       .placeholder {
-left: 5rem;
-  top: -10rem;
+left: 10rem;
+  top: -5rem;
 
       }
 
@@ -850,7 +850,7 @@ left: 5rem;
 
 justify-content: center;
 align-items: center;
-margin-left: -25rem;
+margin-left: -15rem;
 gap: 20rem;
 
 
@@ -860,7 +860,7 @@ gap: 20rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 35rem;
+  margin-right: 15rem;
   
 
   
