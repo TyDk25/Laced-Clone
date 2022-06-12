@@ -735,12 +735,12 @@ display: none;
       }
       
       
-      /* .main-section {
+      .main-section {
           margin-left: -40rem;
           width: 135rem;
           height: 70rem;
           overflow-x: hidden;
-      } */
+      }
       
       .shoe-img {
           width: 40rem;
@@ -813,12 +813,13 @@ margin-right: 3rem;
 
       footer {
         margin-top: 5rem;
-        padding: 20rem;
+        padding: 20rem 25rem 30rem 30rem;
         background-color: black;
-        width: 75rem;
+        width: 65rem;
         margin-left: -10rem;
         font-size: 0.5rem;
         overflow-x: hidden;
+        overflow-y: hidden;
         position: relative;
       }
 
@@ -826,14 +827,25 @@ margin-right: 3rem;
 
       .newsletter {
 position: absolute;
- margin-left: -5rem;
-bottom: 70rem;
+ margin-left: -15rem;
+bottom: 85rem;
+
       }
+
+      .newsletter h2 {
+        font-size: 1.3rem;
+      }
+      
+.newsletter-txt {
+  font-size: 1rem;
+}
 
       .placeholder {
-left: 5rem;
+left: -5rem;
 
-      }
+font-size: 0.1rem
+
+}
 
   
 
