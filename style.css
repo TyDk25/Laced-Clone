@@ -172,6 +172,7 @@ nav {
   );
   height: 100rem;
   border-top: 1px solid rgb(201, 201, 201);
+
  
 
   
@@ -519,7 +520,8 @@ h2 {
   .main-section {
 margin-left: -10rem;
     width: 150rem;
-
+border-top: 1px solid rgb(201, 201, 201);
+width: 200rem;
 
   }
 
@@ -579,6 +581,8 @@ margin-left: -10rem;
 display: flex;
 
 }
+
+
 
 .most-popular {
     margin-left:-5rem;
@@ -809,7 +813,7 @@ margin-right: 3rem;
 
       footer {
         margin-top: 5rem;
-        padding: 30rem;
+        padding: 35rem;
         background-color: black;
         width: 75rem;
         margin-left: -10rem;
@@ -844,7 +848,7 @@ margin-right: 3rem;
 
 justify-content: center;
 align-items: center;
-margin-left: 5rem;
+margin-left: -30rem;
 gap: 20rem;
 
 
