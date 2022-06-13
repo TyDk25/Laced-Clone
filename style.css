@@ -733,6 +733,7 @@ footer {
 
   .mp-img {
     width: 15rem;
+    image-rendering: auto;
   }
 
   .mp-div {
