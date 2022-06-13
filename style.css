@@ -732,6 +732,7 @@ display: none;
       
    body {
       overflow: hidden scroll;
+      background-attachment: scroll;
       }
       
       
