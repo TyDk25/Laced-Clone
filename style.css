@@ -2,19 +2,16 @@
   padding: 0;
   margin: 0;
   caret-color: transparent;
-
-
-
 }
 
 body {
   overflow: hidden scroll;
 }
+
 html {
   font-size: 10px;
   font-family: "Poppins", sans-serif;
 }
-
 
 /*NAVIGATION*/
 header {
@@ -23,7 +20,6 @@ header {
 }
 
 nav {
- 
   margin-left: -20rem;
 }
 
@@ -165,17 +161,11 @@ nav {
 .main-section {
   margin-top: 3rem;
 
-  background: radial-gradient(
-    circle,
-    rgb(233, 232, 232) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgb(233, 232, 232) 0%,
+      rgba(255, 255, 255, 1) 100%);
   height: 100rem;
   border-top: 1px solid rgb(201, 201, 201);
-
- 
-
-  
 }
 
 .shoe-img {
@@ -313,7 +303,6 @@ hr {
   position: absolute;
   left: 71rem;
 
-
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -337,7 +326,7 @@ hr {
 .yeezy-pure-price {
   position: absolute;
   left: 155rem;
-bottom: -6rem;
+  bottom: -6rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -460,6 +449,7 @@ h2 {
   font-size: 1.5rem;
   white-space: nowrap;
 }
+
 .footer-browse p {
   margin-bottom: 1rem;
   cursor: pointer;
@@ -485,11 +475,10 @@ h2 {
 /* 
 /*Large Screens*/
 @media (min-width: 1900px) and (max-width: 2000px) {
-
   .main-section {
     width: 200rem;
-   
   }
+
   .Im-in {
     margin-left: 38.4rem !important;
   }
@@ -498,12 +487,8 @@ h2 {
 /*Most Laptops*/
 
 @media (max-width: 1900px) {
- 
-    * {
+  * {
     max-width: 180rem !important;
-
-
-
   }
 
   .two-tone-price,
@@ -513,16 +498,11 @@ h2 {
     display: none;
   }
 
-
-
-
-
   .main-section {
-margin-left: -10rem;
+    margin-left: -10rem;
     width: 150rem;
-border-top: 1px solid rgb(201, 201, 201);
-width: 200rem;
-
+    border-top: 1px solid rgb(201, 201, 201);
+    width: 200rem;
   }
 
   header {
@@ -553,9 +533,9 @@ width: 200rem;
     margin-left: 4rem;
   }
 
-.or {
+  .or {
     margin-left: -3rem;
-}
+  }
 
   .item-list {
     display: flex;
@@ -573,358 +553,305 @@ width: 200rem;
   }
 
   .icon-div {
-      margin-right: 10rem;
+    margin-right: 10rem;
   }
 
+  .mp-div {
+    display: flex;
+  }
 
-.mp-div {
-display: flex;
+  .most-popular {
+    margin-left: -5rem;
+  }
 
-}
-
-
-
-.most-popular {
-    margin-left:-5rem;
-}
-
-.mp-img-txt {
+  .mp-img-txt {
     display: flex;
     justify-content: center;
-} 
-
+  }
 }
 
-
 .splitter {
-width: 100%;
+  width: 100%;
 }
 
 .two-tone-price,
-  .diamond-mid-price,
-  .linen-mid-price,
-  .yeezy-pure-price {
-    margin-bottom: -10rem;
-    margin-left: -10rem;
-  }
+.diamond-mid-price,
+.linen-mid-price,
+.yeezy-pure-price {
+  margin-bottom: -10rem;
+  margin-left: -10rem;
+}
 
-  footer {
-    margin-top: 5rem;
-    padding: 25rem;
-    background-color: black;
-    width: 100%;
-    margin-left: -15rem;
-    font-size: 0.5rem;
-  }
+footer {
+  margin-top: 5rem;
+  padding: 25rem;
+  background-color: black;
+  width: 100%;
+  margin-left: -15rem;
+  font-size: 0.5rem;
+}
 
-
-  
 .Im-in {
-    position: absolute;
-    bottom: 0.05rem;
-    border: 1px solid white;
-    color: black;
-    height: 3rem;
-    padding: 0.5rem;
-    width: 8rem;
-    margin-left: 28rem;
-    background-color: transparent;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    border-bottom: none;
-  }
-
-  .placeholder-txt {
-    position: absolute;
-    border-bottom: 1px solid white;
-    margin-top: 6rem;
-    width: 25%;
-  }
-  
-
-  .search-txt {
-      width: 50%;
-      overflow: hidden;
-  }
-
-  .fl-line {
-    position: relative;
-    margin-top: -25rem;
-    margin-left: -45rem;
-  }
-  
-  .fl {
-    position: absolute;
-    width: 120rem;
-    background-color: rgb(112, 112, 112);
-  }
-
-  .footer-browse {
-    display: flex;
-    margin-left: 70rem;
-    gap: 10rem;
-    font-size: 1.5rem;
-    white-space: nowrap;
-  }
-  .footer-browse p {
-    margin-bottom: 1rem;
-    cursor: pointer;
-  }
-  
-  .mp-div {
-    display: flex;
-    margin-left: 15rem;
-  }
-
-
-  /*TABLETS*/
-
-  @media only screen and (min-device-width:768px) and (max-device-width:1024px) {
-    header {
-
-      margin-left: -5rem;
-    margin-top: 2rem;
-      
-          }
-      
-        
-        
-      
-          nav {
-              display: none;
-          }
-       
-      .brand-list {
-        display: flex;
-        margin-top: 1rem;
-   }
-
-    
-
-
-      
-      .item-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid rgb(211, 209, 209);
-        padding: 1.3rem;
-        border-radius: 999rem;
-        font-size: 0.9rem;
-        width: 5.7rem;
- 
-
-      
-        cursor: pointer;
-      }
-
-
-      .item-list:nth-child(10),
-      .item-list:nth-child(11),
-      .item-list:nth-child(12),
-      .item-list:nth-child(13),
-      .item-list:nth-child(14),
-      .item-list:nth-child(15) {
-display: none;
-      }
-      
-   body {
-      overflow: hidden scroll;
-      background-attachment: scroll;
-      }
-      
-      
-      .main-section {
-          margin-left: -40rem;
-          width: 135rem;
-          height: 70rem;
-          overflow-x: hidden;
-      }
-      
-      .shoe-img {
-          width: 40rem;
-          
-      }
-      
-      .text {
-          margin-left: -50rem;
-          margin-top: 5rem;
-          font-size: 0.7rem;
-      }
-      
-      .restock {
-          font-size: 2rem;
-          margin-left: 0.9rem;
-      }
-      
-      .btn-shop {
-      margin-top: 9rem;
-      margin-left: -48rem;
-      width: 13rem;
-      white-space: nowrap;
-      
-      }
-      
-      
-      .most-popular {
-        margin-left: 5rem;
-       
-      }
-      
-      .mp {
-        margin-top: -5rem;
-      }
-      
-      .mp-img {
-        width: 15rem;
-      
-      }
-      
-      .mp-div {
-        display: flex;
-        margin-left: 30rem;
-      }
-
-      .mp-img:nth-child(4) {
-margin-right: 3rem;
-      }
-      
-      .mp-text {
-      display: flex;
-      margin-right: -11.5rem;
-    
-      
-      
-      }
-
-      
-      .mg-img-txt {
-      display: flex;
-      margin-left: -90rem;
-      position: relative;
-      }
-      
-      
-      
-      .splitter {
-        width: 95rem;
-      }
-
-      footer {
-        margin-top: 5rem;
-        padding: 20rem 25rem 30rem 30rem;
-        background-color: black;
-        width: 65rem;
-        margin-left: -10rem;
-        font-size: 0.5rem;
-        overflow-x: hidden;
-        overflow-y: hidden;
-        position: relative;
-      }
-
-
-
-      .newsletter {
-position: absolute;
- margin-left: -15rem;
-bottom: 85rem;
-
-      }
-
-      .newsletter h2 {
-        font-size: 1.5rem;
-      }
-      
-.newsletter-txt {
-  font-size: 1rem;
-}
-
-      .placeholder {
-left: -15rem;
-
-
-}
-
-  
-
-    
-      .footer-line-div {
-        width: 40rem;
-      }
-    
-
-.footer-browse {
-  display: flex;
-  margin-top: 40rem;
-
-justify-content: center;
-align-items: center;
-margin-left: -5rem;
-gap: 20rem;
-font-size: 1.2rem;
-
-
-}
-
-.footer-icon-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 15rem;
-  
-
-  
-
-}
-
-.footer-icon {
-  margin-bottom: -30rem;
-
-}
-
-.contact-footer {
-  margin-top: -13rem;
-}
-
-.placeholder {
-display: flex;
-justify-content: flex-end;
-margin-left: 85rem;
-margin-top: -12rem;
-color: white;
-
+  position: absolute;
+  bottom: 0.05rem;
+  border: 1px solid white;
+  color: black;
+  height: 3rem;
+  padding: 0.5rem;
+  width: 8rem;
+  margin-left: 28rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: none;
 }
 
 .placeholder-txt {
   position: absolute;
   border-bottom: 1px solid white;
-  margin-top: -1rem;
-  width:40rem;
+  margin-top: 6rem;
+  width: 25%;
 }
-
-.Im-in {
- bottom: -4.8rem;
- left: 0.7rem;
- border-bottom: none;
- margin-left: 30rem;
- margin-bottom: 5rem;
-}
-
 
 .search-txt {
-width: 30rem;
-font-size: 2rem;
-}
-
-
-
-input {
-  margin-top: -90rem;
+  width: 50%;
+  overflow: hidden;
 }
 
 .fl-line {
- display: none;
+  position: relative;
+  margin-top: -25rem;
+  margin-left: -45rem;
+}
+
+.fl {
+  position: absolute;
+  width: 120rem;
+  background-color: rgb(112, 112, 112);
+}
+
+.footer-browse {
+  display: flex;
+  margin-left: 70rem;
+  gap: 10rem;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.footer-browse p {
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.mp-div {
+  display: flex;
+  margin-left: 15rem;
+}
+
+/*TABLETS*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header {
+    margin-left: -5rem;
+    margin-top: 2rem;
   }
+
+  nav {
+    display: none;
   }
+
+  .brand-list {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .item-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(211, 209, 209);
+    padding: 1.3rem;
+    border-radius: 999rem;
+    font-size: 0.9rem;
+    width: 5.7rem;
+
+    cursor: pointer;
+  }
+
+  .item-list:nth-child(10),
+  .item-list:nth-child(11),
+  .item-list:nth-child(12),
+  .item-list:nth-child(13),
+  .item-list:nth-child(14),
+  .item-list:nth-child(15) {
+    display: none;
+  }
+
+  body {
+    overflow: hidden scroll;
+    background-attachment: scroll;
+  }
+
+  .main-section {
+    margin-left: -40rem;
+    width: 135rem;
+    height: 70rem;
+    overflow-x: hidden;
+  }
+
+  .shoe-img {
+    width: 40rem;
+  }
+
+  .text {
+    margin-left: -50rem;
+    margin-top: 5rem;
+    font-size: 0.7rem;
+  }
+
+  .restock {
+    font-size: 2rem;
+    margin-left: 0.9rem;
+  }
+
+  .btn-shop {
+    margin-top: 9rem;
+    margin-left: -48rem;
+    width: 13rem;
+    white-space: nowrap;
+  }
+
+  .most-popular {
+    margin-left: 5rem;
+  }
+
+  .mp {
+    margin-top: -5rem;
+  }
+
+  .mp-img {
+    width: 15rem;
+  }
+
+  .mp-div {
+    display: flex;
+    margin-left: 30rem;
+  }
+
+  .mp-img:nth-child(4) {
+    margin-right: 3rem;
+  }
+
+  .mp-text {
+    display: flex;
+    margin-right: -11.5rem;
+  }
+
+  .mg-img-txt {
+    display: flex;
+    margin-left: -90rem;
+    position: relative;
+  }
+
+  .splitter {
+    width: 95rem;
+  }
+
+  footer {
+    margin-top: 5rem;
+    padding: 20rem 25rem 30rem 30rem;
+    background-color: black;
+    width: 65rem;
+    margin-left: -10rem;
+    font-size: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+  }
+
+  .newsletter {
+    position: absolute;
+    margin-left: -15rem;
+    bottom: 85rem;
+  }
+
+  .newsletter h2 {
+    font-size: 1.5rem;
+  }
+
+  .newsletter-txt {
+    font-size: 1rem;
+  }
+
+  .placeholder {
+    left: -15rem;
+  }
+
+  .footer-line-div {
+    width: 40rem;
+  }
+
+  .footer-browse {
+    display: flex;
+    margin-top: 40rem;
+
+    justify-content: center;
+    align-items: center;
+    margin-left: -5rem;
+    gap: 20rem;
+    font-size: 1.2rem;
+  }
+
+  .footer-icon-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15rem;
+  }
+
+  .footer-icon {
+    margin-bottom: -30rem;
+  }
+
+  .contact-footer {
+    margin-top: -13rem;
+  }
+
+  .placeholder {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 85rem;
+    margin-top: -12rem;
+    color: white;
+  }
+
+  .placeholder-txt {
+    position: absolute;
+    border-bottom: 1px solid white;
+    margin-top: -1rem;
+    width: 40rem;
+  }
+
+  .Im-in {
+    bottom: -4.8rem;
+    left: 0.7rem;
+    border-bottom: none;
+    margin-left: 30rem;
+    margin-bottom: 5rem;
+  }
+
+  .search-txt {
+    width: 30rem;
+    font-size: 2rem;
+  }
+
+  input {
+    margin-top: -90rem;
+  }
+
+  .fl-line {
+    display: none;
+  }
+}
