@@ -862,11 +862,11 @@ and (min-device-width : 768px)
 and (max-device-width : 1180px) 
 and (orientation : landscape) { 
   footer {
-    width:135rem;
+    width:100rem;
   }
   
 .main-section {
-  display: none;
+
 }
 
 
