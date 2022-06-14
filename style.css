@@ -875,16 +875,29 @@ nav {
 
 .main-section {
   width: 165rem;
+  height: 90rem;
+}
+
+.arrows {
+  margin-left: 60rem;
 }
 
 
+.shoe-img {
+width: 70rem;
+}
 
   footer {
     width:85rem;
 
   }
 
-  
+  .placeholder {
+    left: 5rem;
+  }
+
+
+
 
 
 
