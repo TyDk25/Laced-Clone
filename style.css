@@ -865,9 +865,7 @@ and (orientation : landscape) {
     width:90rem;
   }
 
-  .main-section {
-    display: none;
-  }
+ 
 
   
 }
