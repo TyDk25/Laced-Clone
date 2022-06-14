@@ -865,9 +865,7 @@ and (orientation : landscape) {
     width:90rem;
   }
 
-  .main-section {
-    
-  }
+
 
  .splitter {
   width: 80rem;
@@ -876,4 +874,5 @@ and (orientation : landscape) {
 
  
 }
+
 
