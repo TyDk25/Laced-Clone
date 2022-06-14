@@ -865,7 +865,13 @@ and (orientation : landscape) {
     width:90rem;
   }
 
- 
+ .splitter {
+  width: 100rem;
+ }
 
+
+ .footer-line {
+  width: 100rem;
+ }
   
 }
