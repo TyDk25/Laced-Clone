@@ -866,11 +866,11 @@ and (orientation : landscape) {
   }
 
   .main-section {
-    display: none;
+    
   }
 
  .splitter {
-  width: 40rem;
+  width: 80rem;
  }
 
 
