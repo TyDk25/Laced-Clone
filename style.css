@@ -858,8 +858,7 @@ footer {
 }
 
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1180px) 
+and (min-device-width : 900px) 
 and (orientation : landscape) { 
 
 nav {
