@@ -866,12 +866,10 @@ and (orientation : landscape) {
   }
 
  .splitter {
-  width: 100rem;
+  width: 40rem;
  }
 
 
- .footer-line {
-  width: 100rem;
- }
-  
+ 
 }
+
