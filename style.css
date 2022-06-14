@@ -868,14 +868,15 @@ and (orientation : landscape) {
 
 
   footer {
-    width:85rem;
+    width:115rem;
   }
 
+
+  .placeholder {
+    margin-left: -100rem;
+  }
   
 
-.main-section {
-  display: none;
-}
 
  .splitter {
   width: 115rem;
