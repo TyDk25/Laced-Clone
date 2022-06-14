@@ -865,6 +865,10 @@ and (orientation : landscape) {
     width:90rem;
   }
 
+  .main-section {
+    display: none;
+  }
+
  .splitter {
   width: 40rem;
  }
