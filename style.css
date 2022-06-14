@@ -861,8 +861,27 @@ footer {
 and (min-device-width : 768px) 
 and (max-device-width : 1180px) 
 and (orientation : landscape) { 
+
+nav {
+    display: block;
+   }
+
+  
+.brand-list {
+  margin-left: 7rem;
+  gap: 7rem;
+}
+
+
+.main-section {
+  width: 165rem;
+}
+
+
+
   footer {
     width:85rem;
+
   }
 
   
@@ -870,8 +889,10 @@ and (orientation : landscape) {
 
 
  .splitter {
-  width: 115rem;
+  width: 125rem;
  }
+
+
 
 
  
