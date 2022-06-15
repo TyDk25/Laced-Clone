@@ -658,7 +658,10 @@ footer {
     margin-top: 2rem;
   }
 
- 
+  nav {
+    display: none;
+  }
+
   .brand-list {
     display: flex;
     margin-top: 1rem;
@@ -854,63 +857,44 @@ footer {
   }
 }
 
-/* @media only screen 
-and (min-device-width : 105px)
-and (max-device-width : 1078px) 
-and (orientation : landscape) { 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1180px) 
+and (orientation : landscape ) {
+  nav {
+    display: block;
+   }
+
+
+
+
+  footer {
+    width:85rem;
+
+  }
+
+  .placeholder {
+    left: 5rem;
+  }
+
+
+
+
+
+
+ .splitter {
+  width: 125rem;
+ }
+
+  
+}
 
 nav {
     display: block;
    }
 
-  
-.brand-list {
-  margin-left: 7rem;
-  gap: 7rem;
-}
 
 
-.main-section {
-  width: 165rem;
-  height: 90rem;
-}
-
-.arrows {
-  margin-left: 60rem;
-}
-
-.restock {
-  font-size: 3rem;
-}
-
-.restock-txt {
-  font-size: 2rem;
-  margin-left: -5rem;
-  margin-bottom: -0.5rem;
-} 
-
-.text {
-margin-left: -15rem;
-top: -10rem;
-margin-top: 2rem;
-}
-
-.btn {
-  left: 50rem;
-  top: -15rem;
-
-}
-
-.btn-shop {
-  width: 20rem;
-height: 5rem;
-}
-}
-
-
-.shoe-img {
-width: 70rem;
-}
 
   footer {
     width:85rem;
@@ -936,4 +920,4 @@ width: 70rem;
  
 
 
- */
+
