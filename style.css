@@ -822,8 +822,8 @@ footer {
 
   .placeholder {
     display: flex;
-    justify-content: flex-end;
-    margin-left: 85rem;
+
+    margin-left: 45rem;
     margin-top: -12rem;
     color: white;
   }
