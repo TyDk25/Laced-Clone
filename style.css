@@ -858,6 +858,9 @@ footer {
 }
 
 @media (orientation : landscape) {
+nav {
+  display: block;
+}
   footer {
     width: 95rem;
   }
