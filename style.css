@@ -857,3 +857,8 @@ footer {
   }
 }
 
+@media (orientation : landscape) {
+  footer {
+    width: 85rem;
+  }
+}
