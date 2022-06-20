@@ -870,6 +870,15 @@ footer {
   .item-list:nth-child(15) {
     display: none;
   }
+
+
+  .shoe-img {
+    width: 30rem;
+  }
+
+  .main-section {
+    width: 90rem;
+  }
   
   footer {
     width: 125rem;
