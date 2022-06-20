@@ -871,6 +871,6 @@ footer {
     width: 140rem;
   }
   .main-section {
-    width: 180rem;
+    display: none;
   }
 }
