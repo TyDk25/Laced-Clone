@@ -871,13 +871,18 @@ footer {
     display: none;
   }
 
+  .brand-list {
+    border-radius: 999px;
+margin-left: 20rem
+  }
+
 
   .shoe-img {
-    width:20rem;
+    width:60rem;
   }
 
   .main-section {
-    width: 180rem;
+    width: 160rem;
   }
   
   footer {
