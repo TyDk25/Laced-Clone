@@ -861,6 +861,16 @@ footer {
 
 @media (orientation: landscape) and (min-width: 1000px) and (max-device-width: 1250px) {
 
+  
+  .item-list:nth-child(10),
+  .item-list:nth-child(11),
+  .item-list:nth-child(12),
+  .item-list:nth-child(13),
+  .item-list:nth-child(14),
+  .item-list:nth-child(15) {
+    display: none;
+  }
+  
   footer {
     width: 95rem;
   }
