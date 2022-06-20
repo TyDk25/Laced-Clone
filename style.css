@@ -697,7 +697,10 @@ footer {
   }
 
   .main-section {
-  display: none;
+    margin-left: -40rem;
+    width: 135rem;
+    height: 70rem;
+    overflow-x: hidden;
   }
 
   .shoe-img {
@@ -856,18 +859,18 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (min-width: 820px) and (max-width: 1180px) {
+@media (orientation: landscape) and (min-device-width: 1000px) {
   nav {
     display: none;
   }
   footer {
-    width:150rem;
+    width: 95rem;
   }
 
   .splitter {
     width: 140rem;
   }
   .main-section {
-    display: none;
+    width: 180rem;
   }
 }
