@@ -654,7 +654,7 @@ footer {
 
 /*TABLETS*/
 
-@media only screen and (max-device-width: 850px) {
+@media only screen and (max-device-width: 800px) {
   header {
     margin-left: -5rem;
     margin-top: 2rem;
@@ -859,7 +859,7 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (min-device-width: 1000px) and (max-device-width: 1100px) {
+@media (orientation: landscape) and (min-device-width: 900px) and (max-device-width: 1200px) {
   nav {
     display: none;
   }
