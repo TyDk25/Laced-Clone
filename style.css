@@ -654,7 +654,7 @@ footer {
 
 /*TABLETS*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 850px) {
   header {
     margin-left: -5rem;
     margin-top: 2rem;
@@ -697,7 +697,10 @@ footer {
   }
 
   .main-section {
-display: none;
+    margin-left: -40rem;
+    width: 135rem;
+    height: 70rem;
+    overflow-x: hidden;
   }
 
   .shoe-img {
@@ -856,7 +859,7 @@ display: none;
   }
 }
 
-@media (orientation: landscape) and (min-device-width: 1000px) {
+@media (orientation: landscape) and (min-device-width: 851px) and (max-device-width: 1100px) {
   nav {
     display: none;
   }
