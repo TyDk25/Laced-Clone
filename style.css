@@ -859,7 +859,7 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (min-width: 900px) and (max-width: 1250px) {
+@media (orientation: landscape) and (min-width: 1000px) {
 
   footer {
     width: 95rem;
