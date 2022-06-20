@@ -859,16 +859,18 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (max-width: 900px) {
-  
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1120px) {
+  nav {
+    display: none;
+  }
   footer {
-    width:140rem;
+    width:150rem;
   }
 
   .splitter {
     width: 140rem;
   }
   .main-section {
-display: none;
+    width: 180rem;
   }
 }
