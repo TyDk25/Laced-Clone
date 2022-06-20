@@ -859,7 +859,7 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (min-width: 768px) and (max-width: 1120px) {
+@media (orientation: landscape) and (min-width: 700px) and (max-width: 900px) {
   nav {
     display: none;
   }
