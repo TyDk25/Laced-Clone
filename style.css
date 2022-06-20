@@ -654,7 +654,7 @@ footer {
 
 /*TABLETS*/
 
-@media only screen and (max-device-width: 800px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1200px) and (orientation: landscape) {
   header {
     margin-left: -5rem;
     margin-top: 2rem;
@@ -859,18 +859,3 @@ footer {
   }
 }
 
-@media (orientation: landscape) and (min-device-width: 850px) and (max-device-width: 1300px) {
-  nav {
-    display: none;
-  }
-  footer {
-    width: 150rem;
-  }
-
-  .splitter {
-    width: 140rem;
-  }
-  .main-section {
-display: none;
-  }
-}
