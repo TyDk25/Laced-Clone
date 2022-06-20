@@ -654,7 +654,7 @@ footer {
 
 /*TABLETS*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 850px ) {
   header {
     margin-left: -5rem;
     margin-top: 2rem;
