@@ -865,15 +865,13 @@ footer {
   .item-list:nth-child(10),
   .item-list:nth-child(11),
   .item-list:nth-child(12),
-  .item-list:nth-child(13),
-  .item-list:nth-child(14),
-  .item-list:nth-child(15) {
+  .item-list:nth-child(13) {
     display: none;
   }
 
   .brand-list {
     border-radius: 999px;
-margin-left: 20rem
+margin-left: 10rem
   }
 
 
