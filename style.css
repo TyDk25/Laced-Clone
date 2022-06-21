@@ -328,7 +328,7 @@ hr {
 .yeezy-pure-price {
   position: absolute;
   left: 155rem;
-  bottom: -6rem;
+  bottom: -11.5rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -930,6 +930,7 @@ top: 5rem;
   }
 
   .mp-img {
+  
     width: 25rem;
     z-index: 20;
   }
