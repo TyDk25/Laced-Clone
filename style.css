@@ -869,6 +869,10 @@ footer {
 
 }
 
+body {
+  width: fit-content !important;
+}
+
 
 .splitter {
 width: max-content;
