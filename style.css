@@ -885,31 +885,31 @@ margin-left: 5rem
   }
 
   .shoe-img {
-    width:40rem;
-    margin-left: 10rem;
+    width:50rem;
+    margin-left: 30rem;
   }
 
   .arrows {
-    margin-left: 20rem;
+    margin-left: 50rem;
   }
 
 
   .main-section {
     width: 130rem;
-
+height: 90rem;
   }
 
   .btn {
     margin-left: -50rem;
     top: 10rem;
-    left: -5rem;
+    left: 20rem;
     
 
   }
 
   .text {
-top: 10rem;
-    left: -50rem;
+top: 5rem;
+    left: -30rem;
     margin-bottom: -10rem;
   }
 
@@ -923,11 +923,56 @@ top: 10rem;
   }
 
   .mp-img {
-    width: 5rem;
+    width: 25rem;
   }
   
   footer {
-    width: 125rem;
+    width: 90rem;
+padding: 30rem 30rem 40rem 20rem;
+overflow-x: hidden;
+
+  }
+
+  .footer-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-browse 
+  {
+    display: flex;
+gap: 30rem;
+margin-left: -3rem;
+margin-top: 20rem;
+  }
+
+  .placeholder {
+    left: 50rem;
+    top: -10rem;
+    width:200rem;
+
+  }
+
+.Im-in {
+  left: 7.8rem;
+}
+
+  .newsletter-txt {
+    font-size: 1.1rem;
+  }
+
+.footer-browse {
+  left: 50rem;
+}
+
+  .fl-line {
+    display: none;
+  }
+
+  .footer-line-div {
+width: 85rem;
+
   }
 
 
