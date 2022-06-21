@@ -927,7 +927,7 @@ top: 5rem;
 
   .mp-img {
     width: 25rem;
-    z-index: -20;
+    z-index: 20;
   }
   
   footer {
