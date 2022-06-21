@@ -861,8 +861,11 @@ footer {
 
 @media (orientation: landscape) and (min-width: 1000px) and (max-device-width: 1250px) {
 
-body {
-  overflow-x: hidden;
+*{
+  margin:0;
+  padding:0;
+  /* overflow-x:hidden; */
+
 }
   
   .item-list:nth-child(10),
@@ -897,13 +900,24 @@ margin-left: 5rem
   }
 
   .btn {
-    margin-left: -35rem;
+    margin-left: -50rem;
+    
+
   }
 
   .text {
 
     left: -50rem;
     margin-bottom: -10rem;
+  }
+
+  .restock {
+    top: -10rem;
+  }
+
+  .restock-txt {
+    white-space: nowrap;
+
   }
 
   .mp-img {
