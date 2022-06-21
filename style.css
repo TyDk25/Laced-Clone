@@ -899,6 +899,7 @@ margin-left: 5rem
   .main-section {
     width: 130rem;
 height: 90rem;
+z-index: -1;
   }
 
   .btn {
