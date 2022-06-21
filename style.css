@@ -877,11 +877,25 @@ margin-left: 5rem
 
   .shoe-img {
     width:60rem;
-    margin-left: -30rem;
+    margin-left: 10rem;
   }
 
+  .arrows {
+    margin-left: 20rem;
+  }
+
+
   .main-section {
-    width: 160rem;
+    width: 140rem;
+  }
+
+  .btn {
+    margin-left: -35rem;
+  }
+
+  .text {
+
+    margin-left: -40rem;
   }
   
   footer {
