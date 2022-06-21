@@ -861,6 +861,9 @@ footer {
 
 @media (orientation: landscape) and (min-width: 1000px) and (max-device-width: 1250px) {
 
+body {
+  overflow-x: hidden;
+}
   
   .item-list:nth-child(10),
   .item-list:nth-child(11),
@@ -874,6 +877,9 @@ footer {
 margin-left: 5rem
   }
 
+  .splitter {
+    width: 120rem;
+  }
 
   .shoe-img {
     width:60rem;
@@ -886,7 +892,8 @@ margin-left: 5rem
 
 
   .main-section {
-    width: 140rem;
+    width: 130rem;
+
   }
 
   .btn {
@@ -895,19 +902,18 @@ margin-left: 5rem
 
   .text {
 
-    margin-left: -40rem;
+    left: -50rem;
+    margin-bottom: -10rem;
   }
 
   .mp-img {
-    width: 15rem;
+    width: 5rem;
   }
   
   footer {
     width: 125rem;
   }
 
-  .splitter {
-    width: 140rem;
-  }
+
 
 }
