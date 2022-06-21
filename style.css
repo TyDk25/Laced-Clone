@@ -944,7 +944,7 @@ overflow-x: hidden;
     display: flex;
 gap: 30rem;
 margin-left: -3rem;
-margin-top: 20rem;
+margin-top: 10rem;
   }
 
   .placeholder {
@@ -956,6 +956,10 @@ margin-top: 20rem;
 
 .Im-in {
   left: 7.8rem;
+}
+
+.footer-browse div p {
+margin-top: 2rem;
 }
 
   .newsletter-txt {
