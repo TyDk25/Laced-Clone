@@ -897,6 +897,10 @@ margin-left: 5rem
 
     margin-left: -40rem;
   }
+
+  .mp-img {
+    width: 15rem;
+  }
   
   footer {
     width: 125rem;
