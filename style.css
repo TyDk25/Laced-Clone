@@ -899,6 +899,7 @@ margin-left: 5rem
   .main-section {
     width: 130rem;
 height: 90rem;
+z-index: -1;
   }
 
   .btn {
@@ -926,7 +927,7 @@ top: 5rem;
 
   .mp-img {
     width: 25rem;
-    z-index: 1;
+  z-index: 1;
   }
   
   footer {
