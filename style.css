@@ -866,6 +866,7 @@ footer {
   padding:0;
   /* overflow-x:hidden; */
 
+
 }
   
   .item-list:nth-child(10),
@@ -925,7 +926,7 @@ top: 5rem;
 
   .mp-img {
     width: 25rem;
-    z-index: 1000;
+    z-index: 1;
   }
   
   footer {
