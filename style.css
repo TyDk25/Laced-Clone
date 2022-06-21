@@ -887,6 +887,7 @@ margin-left: 5rem
   .shoe-img {
     width:50rem;
     margin-left: 30rem;
+
   }
 
   .arrows {
@@ -924,6 +925,7 @@ top: 5rem;
 
   .mp-img {
     width: 25rem;
+    z-index: -1;
   }
   
   footer {
