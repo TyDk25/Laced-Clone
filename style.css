@@ -937,12 +937,12 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15rem;
+    margin-left: 20rem;
     
   }
 
   .footer-icon {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .footer-browse 
