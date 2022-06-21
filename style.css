@@ -868,6 +868,11 @@ footer {
 
 
 }
+
+
+.splitter {
+width: max-content;
+left: -20rem;}
   
   .item-list:nth-child(10),
   .item-list:nth-child(11),
@@ -897,7 +902,7 @@ margin-left: 5rem
 
 
   .main-section {
-    width: 130rem;
+    width: 155rem;
 height: 90rem;
 
   }
@@ -933,10 +938,11 @@ top: 5rem;
   
     width: 25rem;
     z-index: 20;
+    visibility: visible;
   }
   
   footer {
-    width: 85rem;
+    width: 110rem;
 padding: 25rem 30rem 20rem 20rem;
 overflow-x: hidden;
 
