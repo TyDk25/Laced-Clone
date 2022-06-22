@@ -1063,6 +1063,13 @@ letter-spacing: 1rem;
 white-space: nowrap;
 }
 
+.footer-line-div {
+  width: 90rem;
+border-color: aqua;
+margin-left: -20rem;
+}
+
+
 .fl-line {
   display: none;
 }
