@@ -988,6 +988,12 @@ footer {
 
 /*MOBILES*/
 @media (orientation: portrait) and (min-width: 320px) and (max-device-width: 600px) {
+
+* {
+  
+}
+
+
   .nav-list {
     display: none;
   }
@@ -1027,6 +1033,18 @@ footer {
   top: -5rem;
   }
 
+  .restock {
+    top: 13rem;
+    left: 50rem;
+  }
+
+  .restock-txt {
+    white-space: nowrap;
+    position: absolute;
+    top: 20rem;
+  left: 50rem;
+  }
+
 .btn {
 position: absolute;
 top: 52rem;
@@ -1043,6 +1061,10 @@ font-weight: 700;
 font-size: 1.5rem;
 letter-spacing: 1rem;
 white-space: nowrap;
+}
+
+.fl-line {
+  display: none;
 }
 
 
