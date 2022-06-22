@@ -941,8 +941,8 @@ top: 5rem;
   .mp-img {
   
     width: 25rem;
-    z-index: 20;
-    visibility: visible;
+    z-index: -1 !important;
+
   }
   
   footer {
