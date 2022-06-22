@@ -861,13 +861,11 @@ footer {
 }
 
 @media (orientation: landscape) and (min-width: 1000px) and (max-device-width: 1250px) {
-  *, body {
+  *,
+  body {
     margin: 0px;
     padding: 0px;
-
   }
-
-
 
   .splitter {
     width: max-content;
@@ -990,19 +988,62 @@ footer {
 
 /*MOBILES*/
 @media (orientation: portrait) and (min-width: 320px) and (max-device-width: 600px) {
+  .nav-list {
+    display: none;
+  }
 
-.nav-list {
-display: none;
+  header {
+    display: flex;
+    justify-content: space-around;
+    gap: 30rem;
+  }
+
+  .item-list:nth-child(5),
+  .item-list:nth-child(6),
+  .item-list:nth-child(7),
+  .item-list:nth-child(8),
+  .item-list:nth-child(9),
+  .item-list:nth-child(10),
+  .item-list:nth-child(11),
+  .item-list:nth-child(12),
+  .item-list:nth-child(13),
+  .item-list:nth-child(14) {
+    display: none;
+  }
+
+  .main-section {
+    width: 52rem;
+    position: relative;
+  }
+
+.arrows {
+  display: none;
 }
 
-header {
-  display: flex;
-  justify-content: space-around;
-  gap: 30rem;
+  .shoe-img {
+    position: absolute;
+    width: 35rem;
+    margin-left: 10rem;
+  top: -5rem;
+  }
+
+.btn {
+position: absolute;
+top: 52rem;
+left: -115rem;
 }
 
-.brand-list {
-  margin-left: 65rem;
+
+
+.btn-shop {
+background-color: transparent;
+border: none;
+color: black;
+font-weight: 700;
+font-size: 1.5rem;
+letter-spacing: 1rem;
+white-space: nowrap;
 }
+
 
 }
