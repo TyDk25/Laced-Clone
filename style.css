@@ -141,6 +141,7 @@ nav {
 
 .item-list:hover {
   box-shadow: 1px 2px 9px grey;
+  transition: 0.2s;
 }
 
 .item-list:first-child:hover {
