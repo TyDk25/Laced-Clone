@@ -654,7 +654,7 @@ footer {
 
 /*TABLETS*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 999px) and (orientation: portrait) {
+@media only screen and (min-device-width: 600px) and (max-device-width: 999px) and (orientation: portrait) {
   header {
     margin-left: -5rem;
     margin-top: 2rem;
@@ -985,4 +985,23 @@ footer {
   .footer-line-div {
     width: 85rem;
   }
+}
+
+/*MOBILES*/
+@media (orientation: portrait) and (min-width: 320px) and (max-device-width: 600px) {
+
+.nav-list {
+display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  gap: 30rem;
+}
+
+.brand-list {
+  margin-left: 65rem;
+}
+
 }
