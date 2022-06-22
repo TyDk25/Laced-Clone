@@ -328,7 +328,7 @@ hr {
 .yeezy-pure-price {
   position: absolute;
   left: 155rem;
-  bottom: -11.5rem;
+  bottom: -5.8rem;
   font-weight: bold;
   font-size: 1.3rem;
 }
@@ -580,9 +580,11 @@ h2 {
 .diamond-mid-price,
 .linen-mid-price,
 .yeezy-pure-price {
-  margin-bottom: -10rem;
+  margin-bottom: -10.5rem;
   margin-left: -10rem;
 }
+
+
 
 footer {
   margin-top: 5rem;
@@ -681,6 +683,7 @@ footer {
 
     cursor: pointer;
   }
+  
 
   .item-list:nth-child(10),
   .item-list:nth-child(11),
