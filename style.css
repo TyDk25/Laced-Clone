@@ -1018,7 +1018,7 @@ footer {
   }
 
   .main-section {
-    width: 85rem;
+    width: 125rem;
     position: relative;
   }
 
@@ -1028,10 +1028,15 @@ footer {
 
   .shoe-img {
     position: absolute;
-    width: 35rem;
+    width: 35em;
     margin-left: 10rem;
   top: -5rem;
   }
+
+.mp-img {
+  width: 25rem;
+}
+
 
   .restock {
     top: 13rem;
