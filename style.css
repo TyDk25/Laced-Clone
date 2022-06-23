@@ -987,14 +987,18 @@ footer {
 }
 
 /*MOBILES*/
-@media (orientation: portrait) and (min-width: 320px) and (max-device-width: 600px) {
+@media (orientation: portrait) and (min-width: 320px) and (max-device-width: 599px) {
 
-* {
+  
+
+html, body {
+  width: 100%;
+  height: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
 
 }
-
-
-
 
   .nav-list {
     display: none;
@@ -1009,7 +1013,7 @@ footer {
   }
 
   .logo {
-p
+
   }
 
 
@@ -1028,7 +1032,7 @@ p
   }
 
   .main-section {
-    width: 125rem;
+    width: 75rem;
     position: relative;
   }
 
@@ -1045,6 +1049,14 @@ p
 
 .mp-img {
   width: 25rem;
+position: absolute;
+left: 15rem;
+}
+
+.mp-img:nth-child(3),
+.mp-img:nth-child(4)
+ {
+  display: none;
 }
 
 
