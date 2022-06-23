@@ -990,7 +990,7 @@ footer {
 @media (orientation: portrait) and (min-width: 320px) and (max-device-width: 600px) {
 
 * {
-  overflow-x: hidden;
+
 }
 
 
@@ -1003,12 +1003,13 @@ footer {
   header {
     display: flex;
     justify-content: space-around;
-    gap: 30rem;
+    gap: 25rem;
+    
 
   }
 
   .logo {
-    position: sticky;
+p
   }
 
 
