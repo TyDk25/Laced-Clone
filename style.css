@@ -1006,15 +1006,12 @@ overflow-x: hidden;
 
   header {
     display: flex;
-    justify-content: space-around;
-    gap: 25rem;
+    justify-content: space-between;
+margin-left: -10rem;
     
 
   }
 
-  .logo {
-
-  }
 
 
 
@@ -1036,40 +1033,20 @@ overflow-x: hidden;
     position: relative;
   }
 
-.arrows {
-  display: none;
-}
-
-  .shoe-img {
-    position: absolute;
-    width: 35em;
-    margin-left: 10rem;
-  top: -5rem;
-  }
-
-.mp-img {
-  width: 25rem;
-position: absolute;
-left: 15rem;
-}
-
-.mp-img:nth-child(3),
-.mp-img:nth-child(4)
- {
-  display: none;
-}
-
-
   .restock {
-    top: 13rem;
-    left: 50rem;
+    top: 5rem;
+    left: 43rem;
+    font-size: 1.8rem;
   }
 
   .restock-txt {
     white-space: nowrap;
     position: absolute;
-    top: 20rem;
-  left: 50rem;
+    top: 8rem;
+  left:45rem;
+
+  font-size: 1.2rem;
+
   }
 
 .btn {
@@ -1089,6 +1066,70 @@ font-size: 1.5rem;
 letter-spacing: 1rem;
 white-space: nowrap;
 }
+
+
+.arrows {
+  display: none;
+}
+
+  .shoe-img {
+    position: absolute;
+    width: 35em;
+    margin-left: 10rem;
+  top: -5rem;
+  }
+
+
+
+  .mp-div {
+    position: relative;
+    display: flex;
+    gap: 5rem;
+  }
+
+.mp-img {
+  width: 10rem;
+}
+
+.mp-img.tt {
+  position: absolute;
+  left: -4rem;
+}
+
+.mp-text.tt {
+  position: absolute;
+  right: 52rem;
+}
+
+.mp-img.d {
+  margin-left: -12rem;
+}
+
+
+
+.mp-text {
+  white-space: nowrap;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  margin-left: -15rem;
+
+}
+.mp-text.dm,
+.mp-text.tt {
+  margin-right: 2rem;
+}
+
+.mp-img.p {
+  position: absolute;
+left: 40rem;
+}
+
+.last-mp {
+  display: none;
+}
+
+
+
 
 .footer-line-div {
   width: 90rem;
