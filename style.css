@@ -994,6 +994,8 @@ footer {
 }
 
 
+
+
   .nav-list {
     display: none;
   }
@@ -1006,11 +1008,10 @@ footer {
   }
 
   .logo {
+    position: sticky;
   }
 
-  .brand-list {
-    margin-left: 20rem;
-  }
+
 
   .item-list:nth-child(5),
   .item-list:nth-child(6),
