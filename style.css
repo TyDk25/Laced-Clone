@@ -992,10 +992,8 @@ footer {
   
 
 html, body {
-  width: 100%;
-  height: 100%;
-margin: 0;
-padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 overflow-x: hidden;
 
 }
@@ -1030,6 +1028,7 @@ margin-left: -10rem;
 
   .main-section {
     width: 75rem;
+    height: 60rem;
     position: relative;
   }
 
@@ -1133,7 +1132,9 @@ left: 40rem;
   display: none;
 }
 
-
+footer {
+  width: 90rem;
+}
 
 
 .footer-line-div {
