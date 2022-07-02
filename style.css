@@ -1133,13 +1133,14 @@ left: 40rem;
 }
 
 footer {
-  width: 90rem;
+  width: 15rem;
+  height: 2rem;
 }
 
 
 .footer-line-div {
   width: 90rem;
-border-color: aqua;
+border-color: rgb(233, 233, 233);
 margin-left: -20rem;
 }
 
@@ -1147,6 +1148,38 @@ margin-left: -20rem;
 .fl-line {
   display: none;
 }
+
+.newsletter {
+  white-space: nowrap;
+margin-left: -8rem;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+margin-bottom: 2rem;
+bottom: -5rem;
+}
+
+.newsletter-txt{
+  font-size: 1rem;
+}
+
+
+.placeholder {
+  width: 148.8rem;
+  margin-left: -8rem;
+}
+
+
+.footer-icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+ 
+}
+
+
 
 
 }
