@@ -994,8 +994,7 @@ footer {
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-overflow-x: hidden;
-overflow-y: scroll;
+  overflow-y: scroll;
 
 }
 
@@ -1141,6 +1140,7 @@ left: 40rem;
 footer {
   width: 15rem;
   height: 2rem;
+
 }
 
 
